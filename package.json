@@ -5,7 +5,7 @@
   "description": "Discord bot for our server, running on Cloudflare Workers",
   "type": "module",
   "engines": {
-    "node": ">=18.x"
+    "node": ">=22.0.0"
   },
   "scripts": {
     "dev": "wrangler dev --port 8787",
