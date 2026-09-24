@@ -2,8 +2,13 @@ import { WOTD_WORDS, type WotdWord } from './data/wotd-words.js';
 import { getUsedWords } from './db/wotd.js';
 import type { Env } from './env.js';
 
+const DENVER_DATE_FORMATTER = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Denver' });
+
+// Denver's calendar date (DST-aware), not UTC — the cron is scheduled around
+// a Denver morning, and UTC is 6-7 hours ahead, so using raw UTC would let an
+// evening interaction (6 PM+ MDT) silently claim the next day's slot early.
 export function todayDateString(): string {
-  return new Date().toISOString().slice(0, 10);
+  return DENVER_DATE_FORMATTER.format(new Date());
 }
 
 // Picks randomly from words not yet posted. Once every word has been used at
