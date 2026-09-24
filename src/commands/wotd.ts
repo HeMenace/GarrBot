@@ -31,10 +31,6 @@ async function handleForcePost(interaction: APIChatInputApplicationCommandIntera
 }
 
 async function handleAddWords(interaction: APIChatInputApplicationCommandInteraction, env: Env, raw: string): Promise<HandlerResult> {
-  if (!isAdmin(env, getInteractionUserId(interaction))) {
-    return ephemeral('You do not have permission to add words.');
-  }
-
   const requested = [...new Set(raw.split(',').map((w) => w.trim().toUpperCase()).filter(Boolean))];
   if (requested.length === 0) {
     return ephemeral('No words given.');

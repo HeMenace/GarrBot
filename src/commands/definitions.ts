@@ -179,7 +179,7 @@ export const WOTD_COMMAND: RESTPostAPIChatInputApplicationCommandsJSONBody = {
     {
       type: ApplicationCommandOptionType.String,
       name: 'add',
-      description: 'Admin: add word(s) to the list, comma-separated (e.g. "SERENDIPITY, HOT DOG")',
+      description: 'Add word(s) to the list, comma-separated (e.g. "SERENDIPITY, HOT DOG")',
       required: false,
     },
   ],
