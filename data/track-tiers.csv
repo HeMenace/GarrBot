@@ -1,0 +1,97 @@
+track_id,track_name,cup,grade
+mario-kart-stadium,Mario Kart Stadium,Mushroom Cup,
+water-park,Water Park,Mushroom Cup,A
+sweet-sweet-canyon,Sweet Sweet Canyon,Mushroom Cup,A
+thwomp-ruins,Thwomp Ruins,Mushroom Cup,
+mario-circuit,Mario Circuit,Flower Cup,C
+toad-harbor,Toad Harbor,Flower Cup,C-
+twisted-mansion,Twisted Mansion,Flower Cup,C+
+shy-guy-falls,Shy Guy Falls,Flower Cup,B-
+sunshine-airport,Sunshine Airport,Star Cup,S
+dolphin-shoals,Dolphin Shoals,Star Cup,B-
+electrodrome,Electrodrome,Star Cup,A-
+mount-wario,Mount Wario,Star Cup,B
+cloudtop-cruise,Cloudtop Cruise,Special Cup,A
+bone-dry-dunes,Bone-Dry Dunes,Special Cup,C+
+bowsers-castle,Bowser's Castle,Special Cup,B-
+rainbow-road,Rainbow Road,Special Cup,B+
+wii-moo-moo-meadows,Wii Moo Moo Meadows,Shell Cup,C+
+gba-mario-circuit,GBA Mario Circuit,Shell Cup,D-
+ds-cheep-cheep-beach,DS Cheep Cheep Beach,Shell Cup,
+n64-toads-turnpike,N64 Toad's Turnpike,Shell Cup,
+gcn-dry-dry-desert,GCN Dry Dry Desert,Banana Cup,D
+snes-donut-plains-3,SNES Donut Plains 3,Banana Cup,F
+n64-royal-raceway,N64 Royal Raceway,Banana Cup,B
+3ds-dk-jungle,3DS DK Jungle,Banana Cup,B
+ds-wario-stadium,DS Wario Stadium,Leaf Cup,
+gcn-sherbet-land,GCN Sherbet Land,Leaf Cup,D
+3ds-music-park,3DS Music Park,Leaf Cup,B+
+n64-yoshi-valley,N64 Yoshi Valley,Leaf Cup,
+ds-tick-tock-clock,DS Tick-Tock Clock,Lightning Cup,A
+3ds-piranha-plant-slide,3DS Piranha Plant Slide,Lightning Cup,B
+wii-grumble-volcano,Wii Grumble Volcano,Lightning Cup,A-
+n64-rainbow-road,N64 Rainbow Road,Lightning Cup,D
+gcn-yoshi-circuit,GCN Yoshi Circuit,Egg Cup,C-
+excitebike-arena,Excitebike Arena,Egg Cup,D
+dragon-driftway,Dragon Driftway,Egg Cup,D
+mute-city,Mute City,Egg Cup,
+wii-warios-gold-mine,Wii Wario's Gold Mine,Triforce Cup,C
+snes-rainbow-road,SNES Rainbow Road,Triforce Cup,F
+ice-ice-outpost,Ice Ice Outpost,Triforce Cup,C-
+hyrule-circuit,Hyrule Circuit,Triforce Cup,
+gcn-baby-park,GCN Baby Park,Crossing Cup,D-
+gba-cheese-land,GBA Cheese Land,Crossing Cup,B-
+wild-woods,Wild Woods,Crossing Cup,B-
+animal-crossing,Animal Crossing,Crossing Cup,B
+3ds-neo-bowser-city,3DS Neo Bowser City,Bell Cup,B-
+gba-ribbon-road,GBA Ribbon Road,Bell Cup,B
+super-bell-subway,Super Bell Subway,Bell Cup,
+big-blue,Big Blue,Bell Cup,C+
+tour-paris-promenade,Tour Paris Promenade,Golden Dash Cup,C+
+3ds-toad-circuit,3DS Toad Circuit,Golden Dash Cup,D+
+n64-choco-mountain,N64 Choco Mountain,Golden Dash Cup,
+wii-coconut-mall,Wii Coconut Mall,Golden Dash Cup,A+
+tour-tokyo-blur,Tour Tokyo Blur,Lucky Cat Cup,D+
+ds-shroom-ridge,DS Shroom Ridge,Lucky Cat Cup,
+gba-sky-garden,GBA Sky Garden,Lucky Cat Cup,
+ninja-hideaway,Ninja Hideaway,Lucky Cat Cup,A
+tour-new-york-minute,Tour New York Minute,Turnip Cup,
+snes-mario-circuit-3,SNES Mario Circuit 3,Turnip Cup,
+n64-kalimari-desert,N64 Kalimari Desert,Turnip Cup,D
+ds-waluigi-pinball,DS Waluigi Pinball,Turnip Cup,B
+tour-sydney-sprint,Tour Sydney Sprint,Propeller Cup,C+
+gba-snow-land,GBA Snow Land,Propeller Cup,
+wii-mushroom-gorge,Wii Mushroom Gorge,Propeller Cup,B+
+sky-high-sundae,Sky-High Sundae,Propeller Cup,B
+tour-london-loop,Tour London Loop,Rock Cup,D
+gba-boo-lake,GBA Boo Lake,Rock Cup,
+3ds-rock-rock-mountain,3DS Rock Rock Mountain,Rock Cup,
+wii-maple-treeway,Wii Maple Treeway,Rock Cup,S
+tour-berlin-byways,Tour Berlin Byways,Moon Cup,
+ds-peach-gardens,DS Peach Gardens,Moon Cup,B
+merry-mountain,Merry Mountain,Moon Cup,C+
+3ds-rainbow-road,3DS Rainbow Road,Moon Cup,A
+tour-amsterdam-drift,Tour Amsterdam Drift,Fruit Cup,D+
+gba-riverside-park,GBA Riverside Park,Fruit Cup,F
+wii-dk-summit,Wii DK Summit,Fruit Cup,A
+yoshis-island,Yoshi's Island,Fruit Cup,A
+tour-bangkok-rush,Tour Bangkok Rush,Boomerang Cup,
+ds-mario-circuit,DS Mario Circuit,Boomerang Cup,D-
+gcn-waluigi-stadium,GCN Waluigi Stadium,Boomerang Cup,
+tour-singapore-speedway,Tour Singapore Speedway,Boomerang Cup,
+tour-athens-dash,Tour Athens Dash,Feather Cup,
+gcn-daisy-cruiser,GCN Daisy Cruiser,Feather Cup,D
+wii-moonview-highway,Wii Moonview Highway,Feather Cup,C-
+squeaky-clean-sprint,Squeaky Clean Sprint,Feather Cup,A+
+tour-los-angeles-laps,Tour Los Angeles Laps,Cherry Cup,
+gba-sunset-wilds,GBA Sunset Wilds,Cherry Cup,F
+wii-koopa-cape,Wii Koopa Cape,Cherry Cup,C
+tour-vancouver-velocity,Tour Vancouver Velocity,Cherry Cup,D+
+tour-rome-avanti,Tour Rome Avanti,Acorn Cup,B-
+gcn-dk-mountain,GCN DK Mountain,Acorn Cup,S
+wii-daisy-circuit,Wii Daisy Circuit,Acorn Cup,C-
+piranha-plant-cove,Piranha Plant Cove,Acorn Cup,D
+tour-madrid-drive,Tour Madrid Drive,Spiny Cup,
+3ds-rosalinas-ice-world,3DS Rosalina's Ice World,Spiny Cup,D-
+snes-bowser-castle-3,SNES Bowser Castle 3,Spiny Cup,D-
+wii-rainbow-road,Wii Rainbow Road,Spiny Cup,A+

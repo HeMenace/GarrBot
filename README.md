@@ -1,108 +1,85 @@
-# Getting Started app for Discord
+# Friend Server Bot
 
-This project contains a basic rock-paper-scissors-style Discord app written in JavaScript, built for the [getting started guide](https://discord.com/developers/docs/getting-started).
+A Discord bot for our server, running on Cloudflare Workers. Uses HTTP interactions
+(no Gateway connection), D1 for storage, and Workers static assets for images.
 
-![Demo of app](https://github.com/discord/discord-example-app/raw/main/assets/getting-started-demo.gif?raw=true)
+## Commands
 
-## Project structure
-Below is a basic overview of the project structure:
+- `/ping` — health check
+- `/smash` — random Super Smash Bros. Ultimate fighters
+- `/kart` — random Mario Kart 8 Deluxe character/body/tires/glider
+- `/tracks` — random Mario Kart 8 Deluxe tracks, with cup and tier filters
+- `/tiers view` / `vote` / `set` / `clear` — Mario Kart track tier list and voting
+- `/wotd` — today's Don Cheadle Word of the Day (`/wotd post:true` to force-post, admin-only)
 
-```
-├── examples    -> short, feature-specific sample apps
-│   ├── app.js  -> finished app.js code
-│   ├── button.js
-│   ├── command.js
-│   ├── modal.js
-│   ├── selectMenu.js
-├── .env.sample -> sample .env file
-├── app.js      -> main entrypoint for app
-├── commands.js -> slash command payloads + helpers
-├── game.js     -> logic specific to RPS
-├── utils.js    -> utility functions and enums
-├── package.json
-├── README.md
-└── .gitignore
-```
+## Running locally
 
-## Running app locally
+1. `npm install`
+2. Copy real values into `.dev.vars` (never commit this file):
+   ```
+   DISCORD_APPLICATION_ID=
+   DISCORD_TOKEN=
+   DISCORD_PUBLIC_KEY=
+   DISCORD_GUILD_ID=       # your test server's ID, for instant command updates
+   ADMIN_USER_IDS=         # comma-separated Discord user IDs
+   WOTD_CHANNEL_ID=        # channel the daily word posts to
+   ```
+3. Apply D1 migrations and seed the tier data locally:
+   ```fish
+   npx wrangler d1 migrations apply DB --local
+   npm run seed
+   ```
+4. Render the Word of the Day images (needs `assets/wotd/base.png` — see below):
+   ```fish
+   npm run render-wotd
+   ```
+5. Start the Worker and a tunnel:
+   ```fish
+   npm run dev
+   ngrok http 8787
+   ```
+   Paste the ngrok HTTPS URL + `/interactions` into the Developer Portal's
+   **Interactions Endpoint URL**, then run `npm run register` to push commands
+   to your test guild (instant updates).
 
-Before you start, you'll need to install [NodeJS](https://nodejs.org/en/download/) and [create a Discord app](https://discord.com/developers/applications) with the proper permissions:
-- `applications.commands`
-- `bot` (with Send Messages enabled)
+Other useful commands:
+- `npm run typecheck` — type-checks both the Worker (`src/`) and the Node scripts (`scripts/`)
+- `npm run test` — unit tests (tier scoring, tier-filter parsing)
 
+## Adding words (Word of the Day)
 
-Configuring the app is covered in detail in the [getting started guide](https://discord.com/developers/docs/getting-started).
+1. Add the word (one per line, any case) to `data/words.txt`.
+2. Run `npm run render-wotd` to render its image and regenerate `src/data/wotd-words.ts`.
+3. Commit and push — the deploy workflow re-renders and redeploys automatically.
 
-### Setup project
+Words are picked randomly from those not yet posted; once every word has been
+used, it starts over. Use `npm run render-wotd -- --preview WORD` to preview a
+single word's layout without adding it to the list, and `--force` to
+re-render everything (e.g. after changing `assets/wotd/base.png` or the font).
 
-First clone the project:
-```
-git clone https://github.com/discord/discord-example-app.git
-```
+## Adding images
 
-Then navigate to its directory and install dependencies:
-```
-cd discord-example-app
-npm install
-```
-### Get app credentials
+Fighter/kart images are optional — commands fall back to text if an image is
+missing. Drop a PNG named after the item's `id` into the matching folder:
 
-Fetch the credentials from your app's settings and add them to a `.env` file (see `.env.sample` for an example). You'll need your app ID (`APP_ID`), bot token (`DISCORD_TOKEN`), and public key (`PUBLIC_KEY`).
+- `public/smash/<id>.png` — see `src/data/smash.ts` for ids
+- `public/mk8/characters/<id>.png`, `bodies/`, `tires/`, `gliders/` — see `src/data/mk8-*.ts`
 
-Fetching credentials is covered in detail in the [getting started guide](https://discord.com/developers/docs/getting-started).
+## Changing tiers
 
-> 🔑 Environment variables can be added to the `.env` file in Glitch or when developing locally, and in the Secrets tab in Replit (the lock icon on the left).
+Track tiers come from three places, in priority order: an admin override, the
+vote average (once a track has 3+ votes), then the seed tier below.
 
-### Install slash commands
+- **Seed tiers**: edit the `grade` column in `data/track-tiers.csv` (must be
+  one of the 14 grades in `src/tiers.ts`, or blank for unrated), then run
+  `npm run seed` (add `--remote` to update the live database).
+- **Overrides**: `/tiers set track:<name> grade:<grade>` (admin-only) to force
+  a grade; `/tiers clear track:<name>` to remove it.
+- **The scale itself** (grades, scores, S/F thresholds) lives in `src/tiers.ts`.
 
-The commands for the example app are set up in `commands.js`. All of the commands in the `ALL_COMMANDS` array at the bottom of `commands.js` will be installed when you run the `register` command configured in `package.json`:
+## Deploying
 
-```
-npm run register
-```
-
-### Run the app
-
-After your credentials are added, go ahead and run the app:
-
-```
-node app.js
-```
-
-> ⚙️ A package [like `nodemon`](https://github.com/remy/nodemon), which watches for local changes and restarts your app, may be helpful while locally developing.
-
-If you aren't following the [getting started guide](https://discord.com/developers/docs/getting-started), you can move the contents of `examples/app.js` (the finished `app.js` file) to the top-level `app.js`.
-
-### Set up interactivity
-
-The project needs a public endpoint where Discord can send requests. To develop and test locally, you can use something like [`ngrok`](https://ngrok.com/) to tunnel HTTP traffic.
-
-Install ngrok if you haven't already, then start listening on port `3000`:
-
-```
-ngrok http 3000
-```
-
-You should see your connection open:
-
-```
-Tunnel Status                 online
-Version                       2.0/2.0
-Web Interface                 http://127.0.0.1:4040
-Forwarding                    https://1234-someurl.ngrok.io -> localhost:3000
-
-Connections                  ttl     opn     rt1     rt5     p50     p90
-                              0       0       0.00    0.00    0.00    0.00
-```
-
-Copy the forwarding address that starts with `https`, in this case `https://1234-someurl.ngrok.io`, then go to your [app's settings](https://discord.com/developers/applications).
-
-On the **General Information** tab, there will be an **Interactions Endpoint URL**. Paste your ngrok address there, and append `/interactions` to it (`https://1234-someurl.ngrok.io/interactions` in the example).
-
-Click **Save Changes**, and your app should be ready to run 🚀
-
-## Other resources
-- Read **[the documentation](https://discord.com/developers/docs/intro)** for in-depth information about API features.
-- Browse the `examples/` folder in this project for smaller, feature-specific code examples
-- Join the **[Discord Developers server](https://discord.gg/discord-developers)** to ask questions about the API, attend events hosted by the Discord API team, and interact with other devs.
-- Check out **[community resources](https://discord.com/developers/docs/topics/community-resources#community-resources)** for language-specific tools maintained by community members.
+See the Cloudflare setup steps covered when this project was built (`wrangler
+login`, `wrangler d1 create`, `wrangler secret put`, `wrangler deploy`). Once
+the D1 database and secrets are set up, pushes to `main` auto-deploy via
+`.github/workflows/deploy.yml`.

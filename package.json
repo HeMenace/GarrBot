@@ -1,26 +1,42 @@
 {
-  "name": "discord-getting-started",
+  "name": "friend-server-bot",
   "private": true,
-  "version": "1.0.0",
-  "description": "Discord example app",
-  "main": "app.js",
+  "version": "0.1.0",
+  "description": "Discord bot for our server, running on Cloudflare Workers",
   "type": "module",
   "engines": {
     "node": ">=18.x"
   },
   "scripts": {
-    "start": "node app.js",
-    "register": "node commands.js",
-    "dev": "nodemon app.js"
+    "dev": "wrangler dev --port 8787",
+    "deploy": "wrangler deploy",
+    "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p scripts/tsconfig.json",
+    "register": "tsx scripts/register.ts",
+    "register:global": "tsx scripts/register.ts --global",
+    "register:clear-guild": "tsx scripts/register.ts --clear-guild",
+    "test": "vitest run",
+    "seed": "tsx scripts/seed.ts",
+    "seed:remote": "tsx scripts/seed.ts --remote",
+    "render-wotd": "tsx scripts/render-wotd.ts"
   },
-  "author": "Shay DeWael",
   "license": "MIT",
   "dependencies": {
-    "discord-interactions": "^4.0.0",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2"
+    "discord-api-types": "^0.37.115",
+    "discord-interactions": "^4.0.0"
   },
   "devDependencies": {
-    "nodemon": "^3.0.0"
+    "@cloudflare/workers-types": "^5.20260921.1",
+    "@napi-rs/canvas": "^1.0.9",
+    "@types/node": "^22.10.5",
+    "dotenv": "^16.4.7",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "vitest": "^5.0.1",
+    "wrangler": "^4.136.3"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "esbuild@0.28.1": true,
+    "workerd@1.20260921.1": true
   }
 }

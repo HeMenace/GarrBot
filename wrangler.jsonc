@@ -1,0 +1,24 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "friend-server-bot",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-09-22",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "friend-server-bot-db",
+      "database_id": "1606c4c2-89ec-4629-bef4-f3422078eb60",
+    },
+  ],
+  "observability": {
+    "enabled": true,
+  },
+  "triggers": {
+    // Daily at 15:00 UTC = 9 AM Denver (MDT, daylight saving) or 8 AM (MST, winter).
+    "crons": ["0 15 * * *"],
+  },
+}
