@@ -3,7 +3,7 @@ import { WOTD_WORDS } from './data/wotd-words.js';
 import { getEntryForDate, tryClaimDate, type WotdEntry } from './db/wotd.js';
 import { postMessageWithAttachment } from './discord.js';
 import type { Env } from './env.js';
-import { pickNextWord, todayDateString } from './wotd.js';
+import { buildWotdEmbeds, pickNextWord, todayDateString } from './wotd.js';
 
 export interface WotdPostResult {
   posted: boolean;
@@ -40,16 +40,7 @@ export async function runWotdPost(env: Env, { force = false }: { force?: boolean
   await postMessageWithAttachment(
     env,
     env.WOTD_CHANNEL_ID,
-    {
-      embeds: [
-        {
-          title: entry.word,
-          description: wordEntry.definition ?? undefined,
-          color: 0x5865f2,
-          image: { url: `attachment://${wordEntry.slug}.jpg` },
-        },
-      ],
-    },
+    { embeds: buildWotdEmbeds(wordEntry) },
     { filename: `${wordEntry.slug}.jpg`, data: bytes, contentType: 'image/jpeg' },
   );
   return { posted: true, alreadyPostedToday, word: entry.word };

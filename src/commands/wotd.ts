@@ -9,7 +9,7 @@ import type { Env } from '../env.js';
 import { getWordsFile, updateWordsFile } from '../github.js';
 import { getOption } from '../options.js';
 import { slugify } from '../slugify.js';
-import { todayDateString } from '../wotd.js';
+import { buildWotdEmbeds, todayDateString } from '../wotd.js';
 import { runWotdPost } from '../wotd-post.js';
 import { formatWordLine, parseWordsFile, type WordEntry } from '../words-file.js';
 
@@ -99,16 +99,7 @@ async function handleView(env: Env): Promise<HandlerResult> {
   return {
     response: {
       type: InteractionResponseType.ChannelMessageWithSource,
-      data: {
-        embeds: [
-          {
-            title: entry.word,
-            description: wordEntry.definition ?? undefined,
-            color: 0x5865f2,
-            image: { url: `attachment://${wordEntry.slug}.jpg` },
-          },
-        ],
-      },
+      data: { embeds: buildWotdEmbeds(wordEntry) },
     },
     files: [{ filename: `${wordEntry.slug}.jpg`, data: bytes, contentType: 'image/jpeg' }],
   };
