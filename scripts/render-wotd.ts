@@ -10,7 +10,8 @@ const BASE_IMAGE_PATH = join(ROOT, 'assets/wotd/base.png');
 const WORDS_PATH = join(ROOT, 'data/words.txt');
 const FONT_PATH = join(ROOT, 'assets/fonts/Anton-Regular.ttf');
 const OUTPUT_DIR = join(ROOT, 'public/wotd');
-const PREVIEW_PATH = join(ROOT, 'assets/wotd/preview.png');
+const PREVIEW_PATH = join(ROOT, 'assets/wotd/preview.jpg');
+const JPEG_QUALITY = 90;
 const WORDS_DATA_PATH = join(ROOT, 'src/data/wotd-words.ts');
 
 const OUTPUT_WIDTH = 600;
@@ -80,7 +81,11 @@ async function renderWordImage(word: string, family: string, outputPath: string)
   ctx.font = `${bottomSize}px ${family}`;
   drawOutlinedText(ctx, bottomText, OUTPUT_WIDTH / 2, height * 0.91 - bottomSize * 0.5, bottomSize);
 
-  writeFileSync(outputPath, canvas.toBuffer('image/png'));
+  // JPEG, not PNG: the base image is a real photo, and lossless PNG encoding
+  // of photographic content is enormous (~500KB) vs. ~50-60KB for a visually
+  // indistinguishable JPEG at quality 90 — this matters a lot once the word
+  // list has hundreds of entries.
+  writeFileSync(outputPath, canvas.toBuffer('image/jpeg', JPEG_QUALITY));
 }
 
 async function main() {
@@ -153,14 +158,14 @@ async function main() {
   let skipped = 0;
   for (const entry of entries) {
     const slug = slugify(entry.word);
-    const outputPath = join(OUTPUT_DIR, `${slug}.png`);
+    const outputPath = join(OUTPUT_DIR, `${slug}.jpg`);
     if (existsSync(outputPath) && !force) {
       skipped++;
       continue;
     }
     await renderWordImage(entry.word, family, outputPath);
     rendered++;
-    console.log(`Rendered ${slug}.png`);
+    console.log(`Rendered ${slug}.jpg`);
   }
 
   const dataLines = [

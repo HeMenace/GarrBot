@@ -34,7 +34,7 @@ export async function runWotdPost(env: Env, { force = false }: { force?: boolean
   const wordEntry = WOTD_WORDS.find((w) => w.word === entry!.word);
   if (!wordEntry) throw new Error(`Word "${entry.word}" is no longer in the word list.`);
 
-  const bytes = await fetchAsset(env, `/wotd/${wordEntry.slug}.png`);
+  const bytes = await fetchAsset(env, `/wotd/${wordEntry.slug}.jpg`);
   if (!bytes) throw new Error(`Missing rendered image for "${entry.word}". Run npm run render-wotd.`);
 
   await postMessageWithAttachment(
@@ -46,11 +46,11 @@ export async function runWotdPost(env: Env, { force = false }: { force?: boolean
           title: entry.word,
           description: wordEntry.definition ?? undefined,
           color: 0x5865f2,
-          image: { url: `attachment://${wordEntry.slug}.png` },
+          image: { url: `attachment://${wordEntry.slug}.jpg` },
         },
       ],
     },
-    { filename: `${wordEntry.slug}.png`, data: bytes },
+    { filename: `${wordEntry.slug}.jpg`, data: bytes, contentType: 'image/jpeg' },
   );
   return { posted: true, alreadyPostedToday, word: entry.word };
 }

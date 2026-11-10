@@ -93,7 +93,7 @@ async function handleView(env: Env): Promise<HandlerResult> {
   const wordEntry = WOTD_WORDS.find((w) => w.word === entry.word);
   if (!wordEntry) return ephemeral("Today's word is no longer in the word list.");
 
-  const bytes = await fetchAsset(env, `/wotd/${wordEntry.slug}.png`);
+  const bytes = await fetchAsset(env, `/wotd/${wordEntry.slug}.jpg`);
   if (!bytes) return ephemeral("Today's image is missing. Run npm run render-wotd.");
 
   return {
@@ -105,12 +105,12 @@ async function handleView(env: Env): Promise<HandlerResult> {
             title: entry.word,
             description: wordEntry.definition ?? undefined,
             color: 0x5865f2,
-            image: { url: `attachment://${wordEntry.slug}.png` },
+            image: { url: `attachment://${wordEntry.slug}.jpg` },
           },
         ],
       },
     },
-    files: [{ filename: `${wordEntry.slug}.png`, data: bytes }],
+    files: [{ filename: `${wordEntry.slug}.jpg`, data: bytes, contentType: 'image/jpeg' }],
   };
 }
 
