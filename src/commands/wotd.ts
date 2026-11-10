@@ -9,7 +9,7 @@ import type { Env } from '../env.js';
 import { getWordsFile, updateWordsFile } from '../github.js';
 import { getOption } from '../options.js';
 import { slugify } from '../slugify.js';
-import { buildWotdEmbeds, todayDateString } from '../wotd.js';
+import { buildDefinitionPayload, todayDateString } from '../wotd.js';
 import { runWotdPost } from '../wotd-post.js';
 import { formatWordLine, parseWordsFile, type WordEntry } from '../words-file.js';
 
@@ -96,12 +96,12 @@ async function handleView(env: Env): Promise<HandlerResult> {
   const bytes = await fetchAsset(env, `/wotd/${wordEntry.slug}.jpg`);
   if (!bytes) return ephemeral("Today's image is missing. Run npm run render-wotd.");
 
+  const definitionPayload = buildDefinitionPayload(wordEntry);
+
   return {
-    response: {
-      type: InteractionResponseType.ChannelMessageWithSource,
-      data: { embeds: buildWotdEmbeds(wordEntry) },
-    },
+    response: { type: InteractionResponseType.ChannelMessageWithSource, data: {} },
     files: [{ filename: `${wordEntry.slug}.jpg`, data: bytes, contentType: 'image/jpeg' }],
+    ...(definitionPayload ? { followup: definitionPayload } : {}),
   };
 }
 

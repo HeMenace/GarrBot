@@ -55,6 +55,40 @@ export async function postMessageWithAttachment(
   }
 }
 
+export async function postMessage(env: Env, channelId: string, payload: Record<string, unknown>): Promise<void> {
+  const res = await fetch(`${API_BASE}/channels/${channelId}/messages`, {
+    method: 'POST',
+    headers: {
+      Authorization: `Bot ${env.DISCORD_TOKEN}`,
+      'Content-Type': 'application/json',
+      'User-Agent': 'DiscordBot (https://github.com/garrettj/friend-server-bot, 1.0.0)',
+    },
+    body: JSON.stringify(payload),
+  });
+
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(`Discord API error ${res.status}: ${text}`);
+  }
+}
+
+// Interaction followups use the interaction's own token for auth (no bot
+// token needed) and, crucially, can only succeed once Discord has already
+// received the initial response — so this must never be awaited before that
+// response is returned, or Discord will reject it.
+export async function postFollowupMessage(env: Env, interactionToken: string, payload: Record<string, unknown>): Promise<void> {
+  const res = await fetch(`${API_BASE}/webhooks/${env.DISCORD_APPLICATION_ID}/${interactionToken}`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload),
+  });
+
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(`Discord API error ${res.status}: ${text}`);
+  }
+}
+
 export function isAdmin(env: Env, userId: string): boolean {
   return env.ADMIN_USER_IDS.split(',')
     .map((id) => id.trim())

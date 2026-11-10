@@ -9,6 +9,10 @@ export interface AttachmentFile {
 export interface HandlerResult {
   response: APIInteractionResponse;
   files?: AttachmentFile[];
+  // Sent as a followup message after the main response, via ctx.waitUntil —
+  // must happen after (not instead of, or racing) the initial response,
+  // since Discord only accepts followups once it's received that response.
+  followup?: Record<string, unknown>;
 }
 
 // Discord accepts either a plain JSON body or multipart/form-data (for responses

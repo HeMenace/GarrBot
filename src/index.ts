@@ -1,11 +1,12 @@
 import { verifyKey } from 'discord-interactions';
+import { postFollowupMessage } from './discord.js';
 import { toHttpResponse } from './discord-response.js';
 import type { Env } from './env.js';
 import { handleInteraction } from './router.js';
 import { runWotdPost } from './wotd-post.js';
 
 export default {
-  async fetch(request, env) {
+  async fetch(request, env, ctx) {
     if (request.method === 'GET') {
       return new Response('OK');
     }
@@ -29,7 +30,23 @@ export default {
 
     const interaction = JSON.parse(body);
     const result = await handleInteraction(interaction, env);
-    return toHttpResponse(result);
+    const httpResponse = toHttpResponse(result);
+
+    if (result.followup) {
+      const followupPayload = result.followup;
+      ctx.waitUntil(
+        (async () => {
+          // Small buffer so this can never land in the channel before the
+          // main response Discord is about to receive from this request.
+          await new Promise((resolve) => setTimeout(resolve, 300));
+          await postFollowupMessage(env, interaction.token, followupPayload);
+        })().catch((err) => {
+          console.error('Followup message failed:', err);
+        }),
+      );
+    }
+
+    return httpResponse;
   },
 
   async scheduled(_controller, env, ctx) {

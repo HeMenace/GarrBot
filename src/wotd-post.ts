@@ -1,9 +1,9 @@
 import { fetchAsset } from './assets.js';
 import { WOTD_WORDS } from './data/wotd-words.js';
 import { getEntryForDate, tryClaimDate, type WotdEntry } from './db/wotd.js';
-import { postMessageWithAttachment } from './discord.js';
+import { postMessage, postMessageWithAttachment } from './discord.js';
 import type { Env } from './env.js';
-import { buildWotdEmbeds, pickNextWord, todayDateString } from './wotd.js';
+import { buildDefinitionPayload, pickNextWord, todayDateString } from './wotd.js';
 
 export interface WotdPostResult {
   posted: boolean;
@@ -37,11 +37,15 @@ export async function runWotdPost(env: Env, { force = false }: { force?: boolean
   const bytes = await fetchAsset(env, `/wotd/${wordEntry.slug}.jpg`);
   if (!bytes) throw new Error(`Missing rendered image for "${entry.word}". Run npm run render-wotd.`);
 
-  await postMessageWithAttachment(
-    env,
-    env.WOTD_CHANNEL_ID,
-    { embeds: buildWotdEmbeds(wordEntry) },
-    { filename: `${wordEntry.slug}.jpg`, data: bytes, contentType: 'image/jpeg' },
-  );
+  // Two separate messages, sent in order: the image un-embedded (so Discord
+  // renders it at full size, not an embed's capped size), then the
+  // definition as its own message right after.
+  await postMessageWithAttachment(env, env.WOTD_CHANNEL_ID, {}, { filename: `${wordEntry.slug}.jpg`, data: bytes, contentType: 'image/jpeg' });
+
+  const definitionPayload = buildDefinitionPayload(wordEntry);
+  if (definitionPayload) {
+    await postMessage(env, env.WOTD_CHANNEL_ID, definitionPayload);
+  }
+
   return { posted: true, alreadyPostedToday, word: entry.word };
 }
