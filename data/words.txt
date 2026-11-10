@@ -48,504 +48,504 @@ HOMESTEAD|(noun) A house together with surrounding land and buildings, especiall
 WIENER|(noun) A sausage made from beef, chicken or pork.
 MICHAEL
 PICKLE|(noun) A cucumber preserved in a solution, usually a brine or a vinegar syrup.
-ROSTRUM
-ABERRATION
-ABSCOND
-ABSQUATULATE
-ACUMEN
-ADROIT
-AFFABLE
-AGOG
-AKIMBO
-ALACRITY
-ALCHEMY
-AMALGAM
-AMBIVALENT
-AMELIORATE
-ANACHRONISM
-ANATHEMA
-APLOMB
-APOCRYPHAL
-ARCANE
-ARDENT
-ARGLE-BARGLE
-ASSUAGE
-AUDACIOUS
-AUSPICIOUS
-AVUNCULAR
-BAILIWICK
-BALLYHOO
-BANAL
-BARNSTORM
+ROSTRUM|(noun) A dais, pulpit, or similar platform for a speaker, conductor, or other performer.
+ABERRATION|(noun) The act of wandering; deviation from truth, moral rectitude; abnormal; divergence from the straight, correct, proper, normal, or from the natural state.
+ABSCOND|(verb) To flee, often secretly; to steal away, particularly to avoid arrest or prosecution.
+ABSQUATULATE|(verb) To leave quickly or in a hurry; to depart, flee.
+ACUMEN|(noun) Quickness of perception or discernment; penetration of mind; the faculty of nice discrimination.
+ADROIT|(adjective) Deft, dexterous, or skillful.
+AFFABLE|(adjective) Receiving others kindly and conversing with them in a free and friendly manner; friendly, courteous, sociable.
+AGOG|(adjective) In eager desire, eager, astir.
+AKIMBO|(adjective) With a crook or bend; with the hand on the hip and elbow turned outward.
+ALACRITY|(noun) Eagerness; liveliness; enthusiasm.
+ALCHEMY|(noun) The ancient search for a universal panacea, and of the philosopher's stone, that eventually developed into chemistry.
+AMALGAM|(noun) An alloy containing mercury.
+AMBIVALENT|(adjective) Simultaneously experiencing or expressing opposing or contradictory feelings, beliefs, or motivations.
+AMELIORATE|(verb) To make better, or improve, something perceived to be in a negative condition.
+ANACHRONISM|(noun) A chronological mistake; the erroneous dating of an event, circumstance, or object.
+ANATHEMA|(noun) A ban or curse pronounced with religious solemnity by ecclesiastical authority, often accompanied by excommunication; something denounced as accursed.
+APLOMB|(noun) Self-confidence; poise; composure.
+APOCRYPHAL|(adjective) Of, or pertaining to, the Apocrypha.
+ARCANE|(adjective) Understood by only a few.
+ARDENT|(adjective) Full of ardor; fervent, passionate.
+ARGLE-BARGLE|(noun) A verbal argument.
+ASSUAGE|(verb) To lessen the intensity of, to mitigate or relieve (hunger, emotion, pain etc.).
+AUDACIOUS|(adjective) Showing willingness to take bold risks; recklessly daring.
+AUSPICIOUS|(adjective) Of good omen; indicating future success.
+AVUNCULAR|(adjective) In the manner of an uncle, pertaining to an uncle.
+BAILIWICK|(noun) The district within which a bailie or bailiff has jurisdiction.
+BALLYHOO|(noun) Sensational or clamorous advertising or publicity.
+BANAL|(adjective) Common in a boring way, to the point of being predictable; containing nothing new or fresh.
+BARNSTORM|(noun) A series of appearances in small country towns, as by a politician or a travelling theatre group.
 BAZINGA
-BEDAZZLE
-BEDLAM
-BEFUDDLE
-BEHEMOTH
-BELEAGUER
-BELLICOSE
-BELLWETHER
-BENEVOLENT
-BEQUEATH
-BERSERK
-BESMIRCH
-BESPOKE
-BEWILDER
-BILIOUS
-BLANDISHMENT
-BLATHERSKITE
-BLITHE
-BLOVIATE
-BLUNDERBUSS
-BODACIOUS
-BOISTEROUS
-BOMBASTIC
-BOONDOGGLE
-BRAZEN
-BROUHAHA
-BRUSQUE
-BUCOLIC
-BUFFOON
+BEDAZZLE|(verb) To confuse or disarm by dazzling.
+BEDLAM|(noun) A place or situation of chaotic uproar, and where confusion prevails.
+BEFUDDLE|(verb) To perplex, confuse (someone).
+BEHEMOTH|(noun) A great and mighty beast God shows Job in Job 40:15–24.
+BELEAGUER|(verb) To besiege; to surround with troops.
+BELLICOSE|(adjective) Warlike in nature; aggressive; hostile.
+BELLWETHER|(noun) The leading sheep of a flock, having a bell hung round its neck.
+BENEVOLENT|(adjective) Having a disposition to do good.
+BEQUEATH|(verb) To give or leave by will; to give by testament.
+BERSERK|(noun) A crazed Norse warrior who fought in a frenzy; a berserker.
+BESMIRCH|(verb) To make dirty.
+BESPOKE|(verb) To speak about; tell of; relate; discuss.
+BEWILDER|(verb) To confuse, disorientate, or puzzle someone, especially with many different choices.
+BILIOUS|(adjective) Of or pertaining to something containing or consisting of bile.
+BLANDISHMENT|(noun) Flattering speech or actions designed to persuade or influence.
+BLATHERSKITE|(noun) A voluble purveyor of nonsense; a blusterer.
+BLITHE|(adjective) (dated or literary) Happy, cheerful.
+BLOVIATE|(verb) To speak or discourse at length in a pompous or boastful manner.
+BLUNDERBUSS|(noun) An old style of muzzleloading firearm and early form of shotgun with a distinctive short, large caliber barrel that is flared at the muzzle, therefore able to fire scattered quantities of nails, stones, shot, etc. at short range.
+BODACIOUS|(adjective) Audacious and unrestrained.
+BOISTEROUS|(adjective) Full of energy; exuberant; noisy.
+BOMBASTIC|(adjective) (of a person, their language or writing) showy in speech and given to using flowery or elaborate terms; grandiloquent; pompous
+BOONDOGGLE|(noun) A braided ring to hold a neckerchief.
+BRAZEN|(verb) To turn a brass color.
+BROUHAHA|(noun) A stir; a fuss or uproar.
+BRUSQUE|(adjective) Rudely abrupt, unfriendly.
+BUCOLIC|(adjective) Rustic, pastoral, country-styled.
+BUFFOON|(noun) One who acts in a silly or ridiculous fashion; a clown or fool.
 BUMFUZZLE
-BUMPTIOUS
-BURGEON
-CABAL
-CADENCE
+BUMPTIOUS|(adjective) Obtrusively pushy; self-assertive to a pretentious extreme.
+BURGEON|(noun) A bud, sprout, shoot.
+CABAL|(noun) # A putative, secret organization of individuals gathered for a political purpose.
+CADENCE|(noun) The act or state of declining or sinking.
 CAHOOTS
-CAJOLE
-CALLOW
-CAMARADERIE
-CANDOR
-CANOODLE
-CAPRICIOUS
-CAROUSE
-CATACLYSM
-CATERWAUL
-CAVORT
-CHAGRIN
-CHARLATAN
-CHICANERY
-CHIMERA
-CHORTLE
-CHURLISH
-CHUTZPAH
-CIRCUMLOCUTION
-CLAMOR
-CLANDESTINE
-CLODHOPPER
-COCKAMAMIE
-CODSWALLOP
-COGENT
-COMEUPPANCE
-COMMISERATE
-CONFLAGRATION
-CONNIPTION
-CONUNDRUM
-COPACETIC
-CORNUCOPIA
-COTERIE
-CRESCENDO
-CRESTFALLEN
-CROMULENT
-CURMUDGEON
-CYNOSURE
-DALLIANCE
-DAUNTLESS
-DEBACLE
-DEBONAIR
-DECORUM
-DELETERIOUS
-DELIRIOUS
-DENOUEMENT
-DERRING-DO
-DESULTORY
-DIATRIBE
-DIDACTIC
-DILETTANTE
-DINGBAT
-DIRIGIBLE
-DISGRUNTLED
-DOLDRUMS
-DOOHICKEY
-DOOZY
-DOPPELGANGER
-DULCET
-DUMBFOUNDED
-DUMBSTRUCK
-DYSPEPTIC
-EBULLIENT
-ECCENTRIC
-ECLECTIC
-EFFERVESCENT
-EFFRONTERY
-EGREGIOUS
-ELDRITCH
-ELIXIR
-EMBIGGEN
-EMOLLIENT
-ENNUI
-ENTHRALL
-EPIPHANY
-EQUANIMITY
-ERSATZ
-ERSTWHILE
-ESOTERIC
-EXACERBATE
-EXASPERATE
-EXUBERANT
-FACETIOUS
-FANDANGO
-FANFARE
-FARCICAL
-FASTIDIOUS
-FECKLESS
-FELICITY
-FERVENT
-FIASCO
-FIDDLESTICKS
-FILIBUSTER
-FINAGLE
-FISTICUFFS
-FLIMFLAM
-FLOTSAM
-FLUMMOX
-FOIBLE
+CAJOLE|(verb) To persuade someone to do something which they are reluctant to do, especially by flattery or promises; to coax.
+CALLOW|(noun) A callow young bird.
+CAMARADERIE|(noun) Close friendship in a group of friends or teammates.
+CANDOR|(noun) Whiteness; brilliance; purity.
+CANOODLE|(noun) A cuddle, hug, or caress
+CAPRICIOUS|(adjective) Impulsive and unpredictable; determined by chance, impulse, or whim
+CAROUSE|(noun) A large draught of liquor.
+CATACLYSM|(noun) A sudden, violent event.
+CATERWAUL|(noun) A yowling.
+CAVORT|(verb) (originally intransitive) To prance, said of mounts
+CHAGRIN|(noun) Distress of mind caused by a failure of aims or plans, want of appreciation, mistakes etc; vexation or mortification.
+CHARLATAN|(noun) A mountebank, someone who addresses crowds in the street; (especially), an itinerant seller of medicines or drugs.
+CHICANERY|(noun) Deception by use of trickery, quibbling, or subterfuge.
+CHIMERA|(noun) Alternative letter-case form of Chimera (a flame-spewing monster often represented as having two heads, one of a goat and the other of a lion; the body of a goat; and a serpent as a tail).
+CHORTLE|(noun) A joyful, somewhat muffled laugh, rather like a snorting chuckle.
+CHURLISH|(adjective) Of or pertaining to a serf, peasant, or rustic.
+CHUTZPAH|(noun) Nearly arrogant courage; utter audacity, effrontery or impudence; supreme self-confidence; exaggerated self-opinion.
+CIRCUMLOCUTION|(noun) A roundabout or indirect way of speaking; the use of more words than necessary to express an idea.
+CLAMOR|(noun) A great outcry or vociferation; loud and continued shouting or exclamation.
+CLANDESTINE|(adjective) Done or kept in secret, sometimes to conceal an illicit or improper purpose.
+CLODHOPPER|(noun) A strong shoe for heavy-duty use, a boot.
+COCKAMAMIE|(noun) A decal, a design that can be transferred to a surface.
+CODSWALLOP|(noun) Senseless talk or writing; nonsense; rubbish.
+COGENT|(adjective) Reasonable and convincing; based on evidence.
+COMEUPPANCE|(noun) Retribution which is justly deserved.
+COMMISERATE|(adjective) Commiserating, pitying, lamentful
+CONFLAGRATION|(noun) A large fire extending to many objects, or over a large space; a general burning.
+CONNIPTION|(noun) A fit of anger or panic; conniption fit.
+CONUNDRUM|(noun) A difficult question or riddle, especially one using a play on words in the answer.
+COPACETIC|(adjective) Fine, excellent, OK, in excellent order.
+CORNUCOPIA|(noun) A goat's horn endlessly overflowing with fruit, flowers and grain; or full of whatever its owner wanted.
+COTERIE|(noun) A circle of people who associate with one another.
+CRESCENDO|(noun) An instruction to play gradually more loudly, denoted by a long, narrow angle with its apex on the left ( < ), by musicians called a hairpin.
+CRESTFALLEN|(adjective) Sad because of a recent disappointment.
+CROMULENT|(adjective) Fine, acceptable or correct; seamless, relevant, legitimate or authentic; nonanomalous.
+CURMUDGEON|(noun) A miser.
+CYNOSURE|(noun) (usually capitalized) Ursa Minor or Polaris, the North Star, used as a guide by navigators.
+DALLIANCE|(noun) Playful flirtation; amorous play.
+DAUNTLESS|(adjective) Invulnerable to fear or intimidation.
+DEBACLE|(noun) An event or enterprise that ends suddenly and disastrously, often with humiliating consequences.
+DEBONAIR|(noun) Debonaire behaviour; graciousness.
+DECORUM|(noun) Appropriate social behavior.
+DELETERIOUS|(adjective) Harmful often in a subtle or unexpected way.
+DELIRIOUS|(adjective) Being in the state of delirium.
+DENOUEMENT|(noun) (authorship, often used metaphorically) The conclusion or resolution of a plot.
+DERRING-DO|(noun) Valiant deeds in desperate times.
+DESULTORY|(adjective) Jumping, or passing, from one thing or subject to another, without order, planning, or rational connection; lacking logical sequence.
+DIATRIBE|(noun) An abusive, bitter, attack or criticism: denunciation.
+DIDACTIC|(noun) A treatise on teaching or education.
+DILETTANTE|(noun) An amateur, someone who dabbles in a field out of casual interest rather than as a profession or serious interest.
+DINGBAT|(noun) A silly, crazy or stupid person.
+DIRIGIBLE|(noun) A self-propelled airship that can be steered
+DISGRUNTLED|(verb) To make discontent or cross; to put in a bad temper.
+DOLDRUMS|(noun) A slothful or stupid person.
+DOOHICKEY|(noun) A thing (used in a vague way to refer to something whose name one cannot recall)
+DOOZY|(noun) Something that is extraordinary: often troublesome, difficult or problematic, but sometimes extraordinary in a positive sense.
+DOPPELGANGER|(noun) A ghostly double of a living person, especially one that haunts such a person.
+DULCET|(adjective) Sweet, especially when describing voice or tones; melodious.
+DUMBFOUNDED|(verb) To confuse and bewilder; to leave speechless.
+DUMBSTRUCK|(adjective) So shocked as to be unable to speak
+DYSPEPTIC|(noun) A dyspeptic person.
+EBULLIENT|(adjective) Enthusiastic; high-spirited.
+ECCENTRIC|(noun) One who does not behave like others.
+ECLECTIC|(noun) Someone who selects according to the eclectic method.
+EFFERVESCENT|(adjective) (of a liquid) Giving off bubbles; fizzy.
+EFFRONTERY|(noun) Insolent and shameless audacity.
+EGREGIOUS|(adjective) Usually in a negative sense: conspicuous, exceptional, outstanding.
+ELDRITCH|(adjective) Unearthly, supernatural, eerie.
+ELIXIR|(noun) A liquid which converts lead to gold.
+EMBIGGEN|(verb) To enlarge; to make bigger.
+EMOLLIENT|(noun) Something which softens or lubricates the skin; moisturizer.
+ENNUI|(noun) A gripping listlessness or melancholia caused by boredom; depression.
+ENTHRALL|(verb) To hold spellbound; to bewitch, charm or captivate.
+EPIPHANY|(noun) The appearance of Jesus Christ to the Magi on the twelfth day after Christmas.
+EQUANIMITY|(noun) The state of being calm, stable and composed, especially under stress.
+ERSATZ|(noun) Something made in imitation; an effigy or substitute
+ERSTWHILE|(adjective) Former, previous.
+ESOTERIC|(noun) An esoteric doctrine or treatise; esoteric philosophy.
+EXACERBATE|(verb) To make worse (a problem, bad situation, negative feeling, etc.); aggravate; exasperate.
+EXASPERATE|(verb) To tax the patience of, irk, frustrate, vex, provoke, annoy; to make angry.
+EXUBERANT|(adjective) (of people) Very high-spirited; extremely energetic and enthusiastic.
+FACETIOUS|(adjective) Treating serious issues with (often deliberately) inappropriate humour; flippant.
+FANDANGO|(noun) A form of lively flamenco music and dance that has many regional variations (e.g. fandango de Huelva), some of which have their own names (e.g. malagueña, granadina).
+FANFARE|(noun) A flourish of trumpets or horns as to announce; a short and lively air performed on hunting horns during the chase.
+FARCICAL|(adjective) Resembling a farce; ludicrous; absurd.
+FASTIDIOUS|(adjective) Excessively particular, demanding, or fussy about details, especially about tidiness and cleanliness.
+FECKLESS|(adjective) Lacking purpose.
+FELICITY|(noun) Happiness.
+FERVENT|(adjective) Exhibiting particular enthusiasm, zeal, conviction, persistence, or belief.
+FIASCO|(noun) A sudden or unexpected failure.
+FIDDLESTICKS|(noun) A bow used to play the fiddle.
+FILIBUSTER|(noun) A mercenary soldier; a freebooter; specifically, a mercenary who travelled illegally in an organized group from the United States to a country in Central America or the Spanish West Indies in the mid-19th century seeking economic and political benefits through armed force.
+FINAGLE|(verb) To obtain, arrange, or achieve by indirect, complicated and/or intensive efforts.
+FISTICUFFS|(noun) A fistfight.
+FLIMFLAM|(noun) Nonsense.
+FLOTSAM|(noun) Debris floating in a river or sea, in particular fragments from a shipwreck.
+FLUMMOX|(verb) To confuse; to fluster; to flabbergast.
+FOIBLE|(noun) A quirk, idiosyncrasy, or mannerism; unusual habit or way (usage is typically plural), that is slightly strange or silly.
 FOOFARAW
-FOOLHARDY
-FORLORN
-FORMIDABLE
-FORTUITOUS
-FRABJOUS
-FRACAS
-FRAZZLED
-FRIVOLOUS
-FUBSY
-FURTIVE
-GADZOOKS
-GALLIMAUFRY
-GAMBIT
-GARGANTUAN
-GARRULOUS
-GAUCHE
-GEWGAW
-GIBBERISH
-GIMCRACK
-GLOWER
-GOBSMACKED
-GOOSEBUMPS
-GORMLESS
-GOSSAMER
-GRANDIOSE
-GRANDSTAND
-GROK
+FOOLHARDY|(adjective) Marked by unthinking recklessness with disregard for danger; boldly rash; hotheaded.
+FORLORN|(verb) To abandon, forsake.
+FORMIDABLE|(adjective) Causing fear, dread, awe, or discouragement as a result of size, strength, or some other impressive feature; commanding respect; causing wonder or astonishment.
+FORTUITOUS|(adjective) Happening by chance; coincidental, accidental.
+FRABJOUS|(adjective) Fabulous, joyous; great, wonderful.
+FRACAS|(noun) A noisy disorderly quarrel, fight, brawl, disturbance or scrap.
+FRAZZLED|(verb) To fray or wear down, especially at the edges.
+FRIVOLOUS|(adjective) Silly, especially at an inappropriate time or in an inappropriate manner.
+FUBSY|(adjective) Short and stout; low and wide
+FURTIVE|(adjective) Stealthy.
+GADZOOKS|(interjection) An expression of surprise, shock etc.
+GALLIMAUFRY|(noun) A hash of various kinds of meats, a ragout.
+GAMBIT|(noun) An opening in chess, in which a minor piece or a pawn is sacrificed to gain an advantage.
+GARGANTUAN|(adjective) Of the giant Gargantua or his appetite.
+GARRULOUS|(adjective) Excessively or tiresomely talkative.
+GAUCHE|(adjective) Awkward or lacking in social graces; bumbling.
+GEWGAW|(noun) A showy trifle, a toy; a showy trinket, ornament or decoration.
+GIBBERISH|(noun) Speech or writing that is unintelligible, incoherent or meaningless.
+GIMCRACK|(noun) Something showy but worthless; a gimmick or bauble.
+GLOWER|(noun) An angry glare or stare.
+GOBSMACKED|(adjective) Flabbergasted, astounded, speechless, overawed.
+GOOSEBUMPS|(noun) (chiefly in plural) Raised skin, usually caused by the involuntary erection of hairs on the neck or arms caused by cold, excitement, or fear.
+GORMLESS|(adjective) (of a person) Lacking intelligence, sense or understanding; foolish.
+GOSSAMER|(noun) A fine film or strand as of cobwebs, floating in the air or caught on bushes, etc.
+GRANDIOSE|(adjective) Large and impressive, in size, scope or extent
+GRANDSTAND|(noun) The seating area at a stadium or arena; the bleachers.
+GROK|(verb) To understand (something) intuitively, to know (something) without having to think intellectually.
 GRUMPUS
-GUBBINS
-GUFFAW
-GUMPTION
-HABERDASHERY
-HALCYON
-HAPHAZARD
-HAPLESS
-HARANGUE
-HARBINGER
-HEARKEN
-HEEBIE-JEEBIES
-HEINOUS
-HIJINKS
-HINTERLAND
-HOBNOB
-HODGEPODGE
-HOGWASH
-HOITY-TOITY
-HOKUM
-HOODWINK
-HOOLIGAN
-HORNSWOGGLE
-HUBBUB
-HUBRIS
-HUMBUG
-HUMDINGER
-HUNKY-DORY
-HYPERBOLE
-ICONOCLAST
-IDIOSYNCRASY
-IGNOMINIOUS
-IMBIBE
-IMBROGLIO
-IMPECCABLE
-IMPETUOUS
-INCANDESCENT
-INCORRIGIBLE
-INDEFATIGABLE
+GUBBINS|(noun) Silly person; fool.
+GUFFAW|(noun) A boisterous laugh.
+GUMPTION|(noun) Common sense, initiative, resourcefulness.
+HABERDASHERY|(noun) Ribbons, buttons, thread, needles and similar sewing goods sold in a haberdasher's shop.
+HALCYON|(noun) A kingfisher said in classical mythology to nest on the sea, thereby calming the waters.
+HAPHAZARD|(adjective) Random; chaotic; incomplete; not thorough, constant, or consistent.
+HAPLESS|(adjective) Very unlucky; ill-fated.
+HARANGUE|(noun) An impassioned, disputatious public speech.
+HARBINGER|(noun) A person or thing that foreshadows or foretells the coming of someone or something.
+HEARKEN|(verb) (obsolete except poetic) To hear (something) with attention; to have regard to (something).
+HEEBIE-JEEBIES|(noun) A general feeling of anxiety, fear, uneasiness, or nausea.
+HEINOUS|(adjective) Totally reprehensible.
+HIJINKS|(noun) Boisterous activity or behaviour, especially in sport; lively fun.
+HINTERLAND|(noun) The land immediately next to, and inland from, a coast.
+HOBNOB|(noun) A toast made while touching glasses together.
+HODGEPODGE|(noun) A hotchpotch; a collection containing a variety of miscellaneous things.
+HOGWASH|(noun) Foolish talk or writing; nonsense.
+HOITY-TOITY|(adjective) Pompous, self-important and snobbish.
+HOKUM|(noun) (An instance of) meaningless nonsense with an outward appearance of being impressive and legitimate.
+HOODWINK|(verb) To deceive by disguise; to dupe, bewile, mislead.
+HOOLIGAN|(noun) A violent and noisy football (soccer) fan who routinely fights with supporters of opposing teams, often the member of a firm.
+HORNSWOGGLE|(verb) To deceive or trick.
+HUBBUB|(noun) A confused uproar, commotion, tumult or racket.
+HUBRIS|(noun) Excessive pride, presumption or arrogance (originally toward the gods).
+HUMBUG|(noun) A hoax, jest, or prank.
+HUMDINGER|(noun) Something that is particularly outstanding, unusual, or exceptional.
+HUNKY-DORY|(adjective) Satisfactory, fine.
+HYPERBOLE|(noun) Deliberate or unintentional overstatement, particularly extreme overstatement.
+ICONOCLAST|(noun) One who destroys religious images or icons, especially an opponent of the Orthodox Church in the 8th and 9th centuries, or a Puritan during the European Reformation.
+IDIOSYNCRASY|(noun) A behavior or way of thinking that is characteristic of a person.
+IGNOMINIOUS|(adjective) Marked by shame or disgrace.
+IMBIBE|(verb) To drink (used frequently of alcoholic beverages).
+IMBROGLIO|(noun) A complicated situation; an entanglement.
+IMPECCABLE|(adjective) Perfect, without faults, flaws or errors
+IMPETUOUS|(adjective) Making arbitrary decisions, especially in an impulsive and forceful manner.
+INCANDESCENT|(noun) An incandescent lamp or bulb
+INCORRIGIBLE|(noun) An incorrigibly bad individual.
+INDEFATIGABLE|(adjective) Extremely persistent and untiring.
 INDUBITABLY
-INEFFABLE
-INEXORABLE
-INFINITESIMAL
-INGENIOUS
-INIMITABLE
-INKLING
-INSOUCIANT
-INTERLOPER
-INTREPID
-IRASCIBLE
-IRREVERENT
-JABBERWOCKY
-JALOPY
-JAMBOREE
-JAUNTY
-JEJUNE
-JIBBER-JABBER
-JITTERBUG
-JOCULAR
-JOLLIFICATION
-JUBILANT
-JUGGERNAUT
-JUXTAPOSE
-KALEIDOSCOPE
-KAPUT
-KIBOSH
-KISMET
-KITSCH
-KNACKERED
-KNICKKNACK
-KOWTOW
-LABYRINTH
-LACKADAISICAL
-LACONIC
-LAGNIAPPE
-LAMBASTE
-LANGUID
-LARGESSE
-LASSITUDE
-LETHARGIC
-LICKETY-SPLIT
-LILY-LIVERED
+INEFFABLE|(adjective) Beyond expression in words; unspeakable.
+INEXORABLE|(adjective) Impossible to prevent or stop; inevitable.
+INFINITESIMAL|(noun) A non-zero quantity whose magnitude is smaller than any positive number (by definition it is not a real number).
+INGENIOUS|(adjective) Displaying genius or brilliance; tending to invent.
+INIMITABLE|(adjective) Beyond imitation, surpassing all others, matchless.
+INKLING|(noun) Usually preceded by forms of to give: a slight hint, implication, or suggestion given.
+INSOUCIANT|(adjective) Casually unconcerned; carefree, indifferent, nonchalant.
+INTERLOPER|(noun) An unlicensed or illegitimate trader.
+INTREPID|(adjective) Fearless; bold; brave.
+IRASCIBLE|(adjective) Easily provoked to outbursts of anger; irritable.
+IRREVERENT|(adjective) Lacking respect; not having or not showing respect for or seriousness towards something that is usually treated with respect; going against conventional precepts.
+JABBERWOCKY|(noun) Invented or meaningless language; nonsense
+JALOPY|(noun) An old, dilapidated or unpretentious automobile.
+JAMBOREE|(noun) A boisterous or lavish celebration or party.
+JAUNTY|(noun) A master-at-arms onboard a Royal Navy ship
+JEJUNE|(adjective) (now rare) Not nutritious.
+JIBBER-JABBER|(noun) Excessive or meaningless talk.
+JITTERBUG|(noun) A one-stringed instrument (monochord) that consists of a wire string attached to something solid like the side of a house, and played with a piece of metal or glass, originating in the African American traditional music of Mississippi in the United States.
+JOCULAR|(adjective) Humorous, amusing or joking.
+JOLLIFICATION|(noun) A merrymaking; noisy festivity.
+JUBILANT|(adjective) In a state of elation.
+JUGGERNAUT|(noun) A literal or metaphorical force or object regarded as unstoppable, that will crush all in its path.
+JUXTAPOSE|(verb) To place side by side, especially for contrast or comparison.
+KALEIDOSCOPE|(noun) A tube of mirrors containing loose coloured beads etc. that is rotated to produce a succession of symmetrical designs.
+KAPUT|(adjective) Out of order; not working.
+KIBOSH|(noun) Nonsense, bosh.
+KISMET|(noun) Fate; a predetermined or unavoidable destiny.
+KITSCH|(noun) Art, decorative objects and other forms of representation of questionable artistic or aesthetic value; a representation that is excessively sentimental, overdone, or vulgar.
+KNACKERED|(verb) (UK slang) To tire out, exhaust.
+KNICKKNACK|(noun) A small ornament of minor value.
+KOWTOW|(noun) The act of kowtowing.
+LABYRINTH|(noun) A maze-like structure built by Daedalus in Knossos, containing the Minotaur.
+LACKADAISICAL|(adjective) Showing no interest, vigor, determination, or enthusiasm.
+LACONIC|(adjective) Using as few words as possible; pithy and concise.
+LAGNIAPPE|(noun) (Mississippi) An extra or unexpected gift or benefit, such as that given to customers when they purchase something.
+LAMBASTE|(verb) To scold, reprimand or criticize harshly.
+LANGUID|(adjective) Lacking enthusiasm, energy, or strength; drooping or flagging from weakness, fatigue, or lack of energy
+LARGESSE|(noun) Generosity in the giving of gifts or money.
+LASSITUDE|(noun) Lethargy or lack of energy; fatigue.
+LETHARGIC|(adjective) Sluggish, slow
+LICKETY-SPLIT|(adverb) Quickly; as fast as possible; in short order.
+LILY-LIVERED|(adjective) Cowardly, lacking courage.
 LIMERENCE
-LOLLAPALOOZA
-LUMINOUS
-LUMMOX
-MACHINATION
-MAELSTROM
-MAGNANIMOUS
-MALAISE
-MALAPROPISM
-MALCONTENT
-MALEVOLENT
-MAVERICK
-MAWKISH
-MAYHEM
-MEANDER
-MENDACIOUS
-MERCURIAL
-MIASMA
-MILQUETOAST
-MINUTIAE
-MISCHIEVOUS
-MISCREANT
-MISHMASH
-MOLLIFY
-MOLLYCODDLE
-MOXIE
-MUGWUMP
-MULLIGAN
-MUMBO-JUMBO
-MUNIFICENT
-MYRIAD
-NAMBY-PAMBY
-NEBULOUS
-NEFARIOUS
-NEOPHYTE
-NIFTY
-NITTY-GRITTY
-NOGGIN
-NONCHALANT
-NONPLUSSED
-NOXIOUS
-NUGATORY
-NUMINOUS
-OBFUSCATE
-OBSEQUIOUS
-ODDBALL
-OEUVRE
-OFFICIOUS
-OMINOUS
-ONOMATOPOEIA
-ONSLAUGHT
-OPULENT
-OSTENTATIOUS
-OXYMORON
-PALAVER
-PANACHE
-PANDEMONIUM
+LOLLAPALOOZA|(noun) An outstanding, extreme, or outrageous example of its kind.
+LUMINOUS|(adjective) Emitting light; glowing brightly.
+LUMMOX|(noun) A clumsy, stupid person; an awkward bungler.
+MACHINATION|(noun) A clever scheme or artful plot, usually crafted for evil purposes.
+MAELSTROM|(noun) A large and violent whirlpool.
+MAGNANIMOUS|(adjective) Noble and generous in spirit.
+MALAISE|(noun) A feeling of general bodily discomfort, fatigue or unpleasantness, often at the onset of illness.
+MALAPROPISM|(noun) The blundering use of an absurdly inappropriate word or expression in place of a similar-sounding one.
+MALCONTENT|(noun) A person who is not satisfied with current conditions; a discontented person, a rebel.
+MALEVOLENT|(adjective) Having or displaying ill will; wishing harm on others
+MAVERICK|(noun) An unbranded range animal.
+MAWKISH|(adjective) Feeling sick, queasy.
+MAYHEM|(noun) A state or situation of great confusion, disorder, trouble or destruction; chaos.
+MEANDER|(noun) A decorative border constructed from a continuous line, shaped into a repeated motif, that is commonly found in Greek art.
+MENDACIOUS|(adjective) (of a person) Lying, untruthful or dishonest.
+MERCURIAL|(noun) Any of the plants known as mercury, especially the annual mercury or French mercury (Mercurialis annua).
+MIASMA|(noun) A noxious atmosphere or influence.
+MILQUETOAST|(noun) (originally United States) A person of meek or timid disposition; a person who lacks character or effectiveness.
+MINUTIAE|(noun) A minor detail, often of negligible importance.
+MISCHIEVOUS|(adjective) Causing mischief; injurious.
+MISCREANT|(noun) One who has behaved badly, or illegally.
+MISHMASH|(noun) A collection containing a variety of miscellaneous things.
+MOLLIFY|(verb) To ease a burden, particularly worry; make less painful; to comfort.
+MOLLYCODDLE|(noun) A person, especially a man or a boy, who is pampered and overprotected.
+MOXIE|(noun) Nerve, spunk, strength of character.
+MUGWUMP|(noun) An independent neutral politician, especially in reference to the 1884 U.S. presidential election.
+MULLIGAN|(noun) Mulligan stew.
+MUMBO-JUMBO|(noun) A deity or other supernatural being said to have been worshipped by certain West African peoples; an idol.
+MUNIFICENT|(adjective) (of a person or group) Very liberal in giving or bestowing.
+MYRIAD|(noun) Ten thousand; 10,000
+NAMBY-PAMBY|(noun) One who is insipid, sentimental or weak.
+NEBULOUS|(adjective) In the form of a cloud or haze; hazy.
+NEFARIOUS|(adjective) Sinful, villainous, criminal, or wicked, especially when noteworthy or notorious for such characteristics.
+NEOPHYTE|(noun) A beginner; a person who is new to a subject, skill, or belief.
+NIFTY|(adjective) Good, smart; useful or beneficial.
+NITTY-GRITTY|(noun) (originally United States) The core or essence of something; the details.
+NOGGIN|(noun) A small mug, cup or ladle.
+NONCHALANT|(adjective) Casually calm and relaxed.
+NONPLUSSED|(verb) To perplex or bewilder someone; to confound or flummox
+NOXIOUS|(adjective) Harmful; injurious.
+NUGATORY|(adjective) Trivial, trifling or of little importance.
+NUMINOUS|(adjective) Of or relating to a numen (divinity); indicating the presence of a divinity.
+OBFUSCATE|(verb) To make dark; overshadow
+OBSEQUIOUS|(adjective) Obedient; compliant with someone else's orders or wishes.
+ODDBALL|(noun) An eccentric or unusual person.
+OEUVRE|(noun) A work of art.
+OFFICIOUS|(adjective) Obliging, attentive, eager to please.
+OMINOUS|(adjective) Of or pertaining to an omen or to omens; being or exhibiting an omen; significant.
+ONOMATOPOEIA|(noun) The property of a word of sounding like what it represents.
+ONSLAUGHT|(noun) A fierce attack.
+OPULENT|(adjective) Luxuriant, and ostentatiously magnificent.
+OSTENTATIOUS|(adjective) Of ostentation.
+OXYMORON|(noun) A figure of speech in which two words or phrases with opposing meanings are used together intentionally for effect.
+PALAVER|(noun) A village council meeting.
+PANACHE|(noun) An ornamental plume on a helmet.
+PANDEMONIUM|(noun) A place where all demons live; Hell.
 PANDICULATION
-PANJANDRUM
-PARAGON
+PANJANDRUM|(noun) An important, powerful or influential person.
+PARAGON|(noun) A person of preeminent qualities, who acts as a pattern or model for others.
 PARAPHERNALIA
-PARIAH
-PARSIMONIOUS
-PECCADILLO
-PEDANTIC
-PELL-MELL
-PENCHANT
-PERFIDIOUS
-PERFUNCTORY
-PERIWINKLE
-PERNICIOUS
-PERSNICKETY
-PETTIFOG
-PHANTASMAGORIA
-PHILISTINE
-PITHY
-PIZZAZZ
-PLATITUDE
-PLETHORA
-POPPYCOCK
-PORTMANTEAU
-PRECOCIOUS
-PRESTIDIGITATION
-PROCRASTINATE
-PRODIGIOUS
-PROPINQUITY
-PROSAIC
-PUGNACIOUS
-PULCHRITUDE
-QUAGMIRE
-QUANDARY
-QUIBBLE
-QUIDDITY
-QUINTESSENTIAL
-QUOKKA
-RACONTEUR
-RAMBUNCTIOUS
-RAMSHACKLE
-RAPSCALLION
-RAZZMATAZZ
-RECALCITRANT
-RECUMBENT
-REDOLENT
-REJOINDER
-RENDEZVOUS
-RESPLENDENT
-RETICENT
-REVELRY
-RHAPSODY
-RIBALD
-RIPOSTE
-ROUSTABOUT
+PARIAH|(noun) A person who is rejected from society or home; an outcast.
+PARSIMONIOUS|(adjective) Exhibiting parsimony; sparing in the expenditure of money; frugal to excess.
+PECCADILLO|(noun) A small flaw or sin.
+PEDANTIC|(adjective) Like a pedant, overly concerned with formal rules and trivial points of learning.
+PELL-MELL|(noun) A 17th-century game in which a ball was driven along an alley and through a hoop using a mallet.
+PENCHANT|(noun) Taste, liking, or inclination (for).
+PERFIDIOUS|(adjective) Of, pertaining to, or representing perfidy; disloyal to what should command one's fidelity or allegiance.
+PERFUNCTORY|(adjective) Done only to fulfil a duty, or in a careless or indifferent manner; performed mechanically and as a thing of rote.
+PERIWINKLE|(noun) Any of several evergreen plants of the genus Vinca with blue or white flowers.
+PERNICIOUS|(adjective) Causing much harm in a subtle way.
+PERSNICKETY|(adjective) Fussy; paying undue attention to minor details; fastidious.
+PETTIFOG|(verb) To quibble over trivial matters; nitpick.
+PHANTASMAGORIA|(noun) A popular 18th- and 19th-century form of theatre entertainment whereby ghostly apparitions are formed.
+PHILISTINE|(noun) A person who is ignorant or uneducated; specifically, a person who lacks appreciation of or is antagonistic towards art or culture, and who has pedestrian tastes.
+PITHY|(adjective) Concise and meaningful.
+PIZZAZZ|(noun) Flair, vitality, or zest; energy; vigor.
+PLATITUDE|(noun) An often-quoted saying that is supposed to be meaningful but has become unoriginal or hackneyed through overuse; a cliché.
+PLETHORA|(noun) (usually followed by of) An excessive amount or number; an abundance.
+POPPYCOCK|(noun) Foolish talk; nonsense.
+PORTMANTEAU|(noun) A large travelling case usually made of leather, and opening into two equal sections.
+PRECOCIOUS|(adjective) Characterized by exceptionally early development or maturity.
+PRESTIDIGITATION|(noun) A performance of or skill in performing magic or conjuring tricks with the hands.
+PROCRASTINATE|(verb) To delay taking action; to wait until later.
+PRODIGIOUS|(adjective) Very big in size or quantity; gigantic; colossal; huge.
+PROPINQUITY|(noun) Nearness or proximity.
+PROSAIC|(adjective) Pertaining to or having the characteristics of prose.
+PUGNACIOUS|(adjective) Naturally aggressive or hostile; combative; belligerent; bellicose.
+PULCHRITUDE|(noun) Physical beauty.
+QUAGMIRE|(noun) A swampy, soggy area of ground.
+QUANDARY|(noun) A state of not knowing what to decide; a state of difficulty or perplexity; a state of uncertainty, hesitation or puzzlement.
+QUIBBLE|(noun) A pun.
+QUIDDITY|(noun) The essence or inherent nature of a person or thing.
+QUINTESSENTIAL|(adjective) Of the nature of a quintessence (in all senses); ultimate.
+QUOKKA|(noun) A cat-sized marsupial, Setonix brachyurus, of southwestern Australia.
+RACONTEUR|(noun) A storyteller, especially a person noted for telling stories with skill and wit.
+RAMBUNCTIOUS|(adjective) Boisterous, energetic, noisy, and difficult to control.
+RAMSHACKLE|(verb) To ransack.
+RAPSCALLION|(noun) A rascal, scamp, rogue, or scoundrel.
+RAZZMATAZZ|(noun) Ambiguous or meaningless language.
+RECALCITRANT|(noun) A person who is recalcitrant.
+RECUMBENT|(noun) A bicycle or tricycle that places the rider in a reclined posture.
+REDOLENT|(adjective) Fragrant or aromatic; having a sweet scent.
+REJOINDER|(noun) The defendant's answer to the replication.
+RENDEZVOUS|(noun) A meeting or date.
+RESPLENDENT|(adjective) Shiny and colourful, and thus pleasing to the eye.
+RETICENT|(adjective) Keeping one's thoughts and opinions to oneself; reserved or restrained.
+REVELRY|(noun) Joyful or riotous merry-making.
+RHAPSODY|(noun) An ancient Greek epic poem (or part of one) suitable for uninterrupted recitation.
+RIBALD|(noun) An individual who is filthy or vulgar in nature.
+RIPOSTE|(noun) A thrust given in return after parrying an attack.
+ROUSTABOUT|(noun) An unskilled laborer, especially at an oilfield, at a circus or on a ship, 19th c.
 RUBBERNECKER
-RUCKUS
-RUFFIAN
-RUMINATE
-RUMPUS
-SAGACIOUS
-SALUBRIOUS
-SANGUINE
-SARDONIC
-SASHAY
-SASSAFRAS
-SAUNTER
-SCALAWAG
-SCALLYWAG
-SCHADENFREUDE
-SCHLEP
-SCHMOOZE
-SCINTILLA
-SCRUMPTIOUS
-SCUTTLEBUTT
-SERPENTINE
-SHINDIG
-SKEDADDLE
-SLAPDASH
-SLIPSHOD
-SMITHEREENS
-SMORGASBORD
-SNAFU
-SNAZZY
-SOBRIQUET
-SOLIPSISM
-SONOROUS
-SOPHOMORIC
+RUCKUS|(noun) A noisy disturbance and/or commotion.
+RUFFIAN|(noun) A scoundrel, rascal, or unprincipled, deceitful, brutal and unreliable person.
+RUMINATE|(verb) To chew cud. (Said of ruminants.) Involves regurgitating partially digested food from the rumen.
+RUMPUS|(noun) A noisy, sometimes violent disturbance; noise and confusion; a quarrel.
+SAGACIOUS|(adjective) Having or showing keen discernment, sound judgment, and farsightedness; mentally shrewd.
+SALUBRIOUS|(adjective) Promoting health or well-being; wholesome, especially as related to air.
+SANGUINE|(noun) Blood colour; red.
+SARDONIC|(adjective) Scornfully mocking or cynical.
+SASHAY|(noun) A chassé.
+SASSAFRAS|(noun) A tree of species Sassafras albidum of the eastern United States and Asia having mitten-shaped leaves and red, aromatic heartwood.
+SAUNTER|(noun) A leisurely walk or stroll.
+SCALAWAG|(noun) A scrawny cow.
+SCALLYWAG|(noun) A disreputable fellow, a good-for-nothing, a scapegrace, a blackguard
+SCHADENFREUDE|(noun) Malicious enjoyment derived from observing someone else's misfortune.
+SCHLEP|(noun) A long or burdensome journey.
+SCHMOOZE|(noun) A casual conversation, especially one held in order to gain an advantage or make a social connection.
+SCINTILLA|(noun) A small spark or flash.
+SCRUMPTIOUS|(adjective) Delicious; delectable.
+SCUTTLEBUTT|(noun) A butt with a scuttle, a keg of drinking water with a hole cut in it, on board ship.
+SERPENTINE|(noun) Any of several plants believed to cure snakebites.
+SHINDIG|(noun) A noisy party or festivities.
+SKEDADDLE|(noun) The act of running away; a scurrying off.
+SLAPDASH|(verb) To apply, or apply something to, in a hasty, careless, or rough manner; to roughcast.
+SLIPSHOD|(adjective) Done poorly or too quickly; slapdash.
+SMITHEREENS|(noun) (originally Ireland) Fragments or splintered pieces; numerous tiny disconnected items.
+SMORGASBORD|(noun) A Swedish-style buffet comprising a variety of cold sandwiches and other dishes; (by extension) any buffet with a wide selection of dishes.
+SNAFU|(noun) A ridiculously chaotic situation.
+SNAZZY|(adjective) Elegant in manner of dress; stylish, modern or appealing in appearance; flashy.
+SOBRIQUET|(noun) A familiar name for a person (typically a shortened version of a person’s given name).
+SOLIPSISM|(noun) The theory that the self is all that exists or that can be proven to exist.
+SONOROUS|(adjective) Capable of giving out a deep, resonant sound.
+SOPHOMORIC|(adjective) Of, relating to, or characteristic of a sophomore
 SPELUNKER
-SPIFFY
-SPLENDIFEROUS
-SPUNK
-SPURIOUS
-SQUABBLE
-SQUALOR
-STALWART
-STENTORIAN
-STUPENDOUS
-SURREPTITIOUS
-SUSURRUS
-SVELTE
-SWAGGER
-SWASHBUCKLER
-SYCOPHANT
-SYZYGY
-TACITURN
-TANTALIZE
-TARRADIDDLE
-TCHOTCHKE
-TEMERITY
-TENACIOUS
-TENEBROUS
-TERPSICHOREAN
-THINGAMAJIG
-THUNDERSTRUCK
-TINTINNABULATION
-TIZZY
-TOMFOOLERY
-TOPSY-TURVY
-TORPOR
-TRANSMOGRIFY
-TREPIDATION
-TRUCULENT
-TUMULTUOUS
-TURGID
-TWADDLE
-UBIQUITOUS
-ULULATE
-UMBRAGE
-UNCTUOUS
-UNFLAPPABLE
-UPROARIOUS
-VACILLATE
-VAGABOND
-VAINGLORIOUS
-VAMOOSE
-VEHEMENT
-VERISIMILITUDE
-VERMILION
-VEXATION
-VICISSITUDE
-VIM
-VIRTUOSO
-VITUPERATE
-VIVACIOUS
-VOCIFEROUS
-VOLUMINOUS
-VORACIOUS
-WANDERLUST
-WHATCHAMACALLIT
-WHEREWITHAL
-WHIMSICAL
-WHIRLIGIG
-WIDDERSHINS
-WISEACRE
-WISHY-WASHY
-WISTFUL
-WITTICISM
-WOEBEGONE
-WONKY
-WRAITH
-WUNDERKIND
+SPIFFY|(noun) A dapper person.
+SPLENDIFEROUS|(adjective) Beautiful, splendid
+SPUNK|(noun) A spark.
+SPURIOUS|(adjective) False, not authentic, not genuine.
+SQUABBLE|(noun) A minor fight or argument.
+SQUALOR|(noun) Filthiness and degradation, as from neglect or poverty
+STALWART|(noun) One who has a strong build.
+STENTORIAN|(adjective) (of a voice) Loud, powerful, booming, suitable for giving speeches to large crowds.
+STUPENDOUS|(adjective) Astonishingly great or large; huge; enormous.
+SURREPTITIOUS|(adjective) Stealthy, furtive, well hidden, covert (especially movements).
+SUSURRUS|(noun) A whispering or rustling sound; a murmur.
+SVELTE|(adjective) Attractively thin; gracefully slender.
+SWAGGER|(noun) Confidence, pride.
+SWASHBUCKLER|(noun) A swordsman or fencer who engages in showy or extravagant sword play.
+SYCOPHANT|(noun) One who uses obsequious compliments to gain self-serving favor or advantage from another; a servile flatterer.
+SYZYGY|(noun) An alignment of three celestial bodies (for example, the Sun, Earth, and Moon) such that one body is directly between the other two, such as occurs at an eclipse.
+TACITURN|(adjective) Silent; temperamentally untalkative; disinclined to speak.
+TANTALIZE|(verb) To tease (someone) by offering something desirable but keeping it out of reach
+TARRADIDDLE|(noun) A trivial lie, a fib.
+TCHOTCHKE|(noun) A trinket.
+TEMERITY|(noun) Reckless boldness; foolish bravery.
+TENACIOUS|(adjective) Clinging to an object or surface; adhesive.
+TENEBROUS|(adjective) Dark and gloomy
+TERPSICHOREAN|(noun) A person who dances, especially professionally.
+THINGAMAJIG|(noun) Something that one does not know the name of.
+THUNDERSTRUCK|(adjective) Astonished, amazed or so suddenly surprised as to be unable to speak.
+TINTINNABULATION|(noun) A tinkling sound, as of a bell or of breaking glass.
+TIZZY|(noun) A state of nervous excitement, confusion, or distress; a dither.
+TOMFOOLERY|(noun) Foolish behaviour or speech.
+TOPSY-TURVY|(verb) To turn upside down, or throw into disorder.
+TORPOR|(noun) A state of being inactive or stuporous.
+TRANSMOGRIFY|(verb) To completely alter the form of.
+TREPIDATION|(noun) A fearful state; a state of concern or hesitation.
+TRUCULENT|(adjective) Cruel or savage.
+TUMULTUOUS|(adjective) Characterized by loud, confused noise.
+TURGID|(adjective) Distended beyond the natural state by some internal agent, especially fluid, or expansive force.
+TWADDLE|(noun) Empty or silly idle talk or writing; nonsense, rubbish.
+UBIQUITOUS|(adjective) Being everywhere at once: omnipresent.
+ULULATE|(verb) To howl loudly or prolongedly in lamentation or joy
+UMBRAGE|(noun) A feeling of anger or annoyance caused by something offensive.
+UNCTUOUS|(adjective) (of a liquid or substance) Oily or greasy.
+UNFLAPPABLE|(adjective) Remaining composed and level-headed at all times; impossible to fluster; not becoming frustrated or irritated easily.
+UPROARIOUS|(adjective) Characterized by loud, confused noise, or by noisy and uncontrollable laughter.
+VACILLATE|(verb) To sway unsteadily from one side to the other; oscillate.
+VAGABOND|(noun) A person on a trip of indeterminate destination and/or length of time.
+VAINGLORIOUS|(adjective) With excessive vanity or unwarranted pride.
+VAMOOSE|(verb) To run away (from); to flee.
+VEHEMENT|(adjective) Showing strong feelings; passionate; forceful or intense.
+VERISIMILITUDE|(noun) The property of seeming true, of resembling reality; resemblance to reality, realism.
+VERMILION|(noun) A vivid red synthetic pigment made of mercury sulfide.
+VEXATION|(noun) The act of annoying, vexing, or irritating.
+VICISSITUDE|(noun) Regular change or succession from one thing to another, or one part of a cycle to the next; alternation; mutual succession; interchange.
+VIM|(noun) Ready vitality and vigour.
+VIRTUOSO|(noun) An expert in virtù or art objects and antiquities; a connoisseur.
+VITUPERATE|(verb) To criticize in a harsh or abusive manner.
+VIVACIOUS|(adjective) Lively and animated; full of life and energy.
+VOCIFEROUS|(adjective) Making or characterized by a noisy outcry; clamorous.
+VOLUMINOUS|(adjective) Of or pertaining to volume or volumes.
+VORACIOUS|(adjective) Wanting or devouring great quantities of food.
+WANDERLUST|(noun) A strong impulse or longing to travel.
+WHATCHAMACALLIT|(noun) A metasyntactic term used for any object whose actual name the speaker does not know or cannot remember; a doodad, gizmo, thingamajig, thingy.
+WHEREWITHAL|(noun) The ability and means required to accomplish some task.
+WHIMSICAL|(adjective) Given to whimsy.
+WHIRLIGIG|(noun) Anything that whirls or spins around, such as a toy top or a merry-go-round.
+WIDDERSHINS|(adverb) The wrong way.
+WISEACRE|(noun) One who feigns knowledge or cleverness; one who is wisecracking; an insolent upstart.
+WISHY-WASHY|(adjective) Wavering; lacking in commitment, certainty, or support; namby-pamby.
+WISTFUL|(adjective) Full of longing or yearning.
+WITTICISM|(noun) A witty remark
+WOEBEGONE|(adjective) In a deplorable state.
+WONKY|(noun) A subgenre of electronic music employing unstable rhythms, complex time signatures, and mid-range synths.
+WRAITH|(noun) A ghost or specter, especially a person's likeness seen just after their death.
+WUNDERKIND|(noun) A child prodigy; a phenom.
 XENIAL
-YAMMER
-YOKEL
-ZANY
-ZEALOT
-ZEITGEIST
-ZENITH
-ZEPHYR
+YAMMER|(noun) The act or noise of yammering.
+YOKEL|(noun) An unsophisticated person.
+ZANY|(noun) A fool or clown, especially one whose business on the stage is to imitate foolishly the actions of the principal clown.
+ZEALOT|(noun) One who is zealous, one who is full of zeal for his own specific beliefs or objectives, usually in the negative sense of being too passionate; a fanatic
+ZEITGEIST|(noun) The spirit of the age; the taste, outlook, and spirit characteristic of a period.
+ZENITH|(noun) The point in the sky vertically above a given position or observer; the point in the celestial sphere opposite the nadir.
+ZEPHYR|(noun) A light wind from the west.
 ZOETIC
-ZONKED
+ZONKED|(adjective) Extremely fatigued.
