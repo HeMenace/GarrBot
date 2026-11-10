@@ -1,53 +1,53 @@
-SERENDIPITY
-DEFENESTRATE
-GREGARIOUS
-QUIXOTIC
-MELLIFLUOUS
-PETRICHOR
-CACOPHONY
-EPHEMERAL
-LUGUBRIOUS
-SUPERCILIOUS
-LOQUACIOUS
-OBSTREPEROUS
-PERSPICACIOUS
-SESQUIPEDALIAN
-GRANDILOQUENT
-FLABBERGASTED
-DISCOMBOBULATED
-KERFUFFLE
-SHENANIGANS
-MALARKEY
-BAMBOOZLE
-FLIBBERTIGIBBET
-PUSILLANIMOUS
-RIGMAROLE
-SKULLDUGGERY
-HULLABALOO
-CANTANKEROUS
+SERENDIPITY|(noun) A combination of events which have come together by chance to make a surprisingly good or wonderful outcome.
+DEFENESTRATE|(verb) To eject or throw (someone or something) from a window; compare transfenestrate.
+GREGARIOUS|(adjective) (of a person) Describing one who enjoys being in crowds and socializing.
+QUIXOTIC|(adjective) Possessing or acting with the desire to do noble and romantic deeds, without thought of realism and practicality; exceedingly idealistic.
+MELLIFLUOUS|(adjective) Flowing like honey.
+PETRICHOR|(noun) The distinctive scent, caused by geosmin, which accompanies the first rain after a long, warm, dry spell.
+CACOPHONY|(noun) A mix of discordant sounds; dissonance.
+EPHEMERAL|(noun) Something which lasts for a short period of time.
+LUGUBRIOUS|(adjective) Gloomy, mournful or dismal, especially to an exaggerated degree.
+SUPERCILIOUS|(adjective) Arrogantly superior; showing contemptuous indifference; haughty.
+LOQUACIOUS|(adjective) Talkative; chatty.
+OBSTREPEROUS|(adjective) Attended by, or making, a loud and tumultuous noise; boisterous.
+PERSPICACIOUS|(adjective) Of acute discernment; having keen insight; mentally perceptive.
+SESQUIPEDALIAN|(noun) A long word.
+GRANDILOQUENT|(adjective) (of a person, their language or writing) given to using language in a showy way by using an excessive amount of difficult words to impress others; bombastic; turgid
+FLABBERGASTED|(verb) To overwhelm with bewilderment; to amaze, confound, or stun, especially in a ludicrous manner.
+DISCOMBOBULATED|(verb) To throw into a state of confusion; to befuddle or perplex.
+KERFUFFLE|(noun) A disorderly outburst, disturbance, commotion, or tumult.
+SHENANIGANS|(noun) A deceitful confidence trick, or mischief causing discomfort or annoyance.
+MALARKEY|(noun) (originally United States) Nonsense; rubbish.
+BAMBOOZLE|(verb) To con, defraud, trick, to make a fool of, to humbug or impose on someone.
+FLIBBERTIGIBBET|(noun) An offbeat, skittish person; especially said of a young woman.
+PUSILLANIMOUS|(adjective) Showing ignoble cowardice, or contemptible timidity.
+RIGMAROLE|(noun) A long and complicated procedure that seems tiresome or pointless.
+SKULLDUGGERY|(noun) A devious device or trick.
+HULLABALOO|(noun) A clamour, a commotion; a fuss or uproar.
+CANTANKEROUS|(adjective) Given to or marked by an ill-tempered nature; ill-tempered, cranky, surly, crabby.
 CATAWAMPUS
-FUDDY-DUDDY
-HOOEY
-NINCOMPOOP
-LOLLYGAG
-WHIPPERSNAPPER
-BALDERDASH
-GOBBLEDYGOOK
-HOOTENANNY
-SNOLLYGOSTER
-COLLYWOBBLES
-FLAPDOODLE
-GALLIVANT
+FUDDY-DUDDY|(noun) An old-fashioned, persnickety or ineffective person.
+HOOEY|(noun) Silly talk or writing; nonsense, silliness, or fake assertion(s).
+NINCOMPOOP|(noun) A foolish or silly person.
+LOLLYGAG|(noun) Silliness, nonsense.
+WHIPPERSNAPPER|(noun) A young and cheeky or presumptuous person.
+BALDERDASH|(noun) Senseless talk or writing; nonsense.
+GOBBLEDYGOOK|(noun) Nonsense; meaningless or encrypted language.
+HOOTENANNY|(noun) An informal, festive performance by folk singers, often including audience participation with the use of acoustic instruments.
+SNOLLYGOSTER|(noun) A shrewd person not guided by principles, especially a politician
+COLLYWOBBLES|(noun) Stomachache or stomach upset.
+FLAPDOODLE|(noun) Nonsense
+GALLIVANT|(verb) To roam about for pleasure without any definite plan.
 BALLIN
-MODICUM
+MODICUM|(noun) A modest, small, or trifling amount.
 FLARP
-HAMMER
-SPOOK
-HOMOSEXUAL
-HOMESTEAD
-WIENER
+HAMMER|(noun) A tool with a heavy head and a handle used for pounding.
+SPOOK|(noun) A ghost or phantom.
+HOMOSEXUAL|(noun) A person who is attracted solely or primarily to others of the same sex.
+HOMESTEAD|(noun) A house together with surrounding land and buildings, especially on a farm; the property comprising these.
+WIENER|(noun) A sausage made from beef, chicken or pork.
 MICHAEL
-PICKLE
+PICKLE|(noun) A cucumber preserved in a solution, usually a brine or a vinegar syrup.
 ROSTRUM
 ABERRATION
 ABSCOND

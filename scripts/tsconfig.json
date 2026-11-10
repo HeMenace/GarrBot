@@ -11,5 +11,12 @@
     "isolatedModules": true,
     "noEmit": true
   },
-  "include": ["./**/*.ts", "../src/commands/definitions.ts", "../src/tiers.ts", "../src/slugify.ts"]
+  "include": [
+    "./**/*.ts",
+    "../src/commands/definitions.ts",
+    "../src/tiers.ts",
+    "../src/slugify.ts",
+    "../src/dictionary.ts",
+    "../src/words-file.ts"
+  ]
 }

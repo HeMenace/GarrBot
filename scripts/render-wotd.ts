@@ -1,7 +1,9 @@
 import { createCanvas, GlobalFonts, loadImage } from '@napi-rs/canvas';
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
+import { fetchDefinition } from '../src/dictionary.js';
 import { slugify } from '../src/slugify.js';
+import { formatWordLine, parseWordsFile, type WordEntry } from '../src/words-file.js';
 
 const ROOT = process.cwd();
 const BASE_IMAGE_PATH = join(ROOT, 'assets/wotd/base.png');
@@ -84,6 +86,7 @@ async function renderWordImage(word: string, family: string, outputPath: string)
 async function main() {
   const args = process.argv.slice(2);
   const force = args.includes('--force');
+  const backfillDefinitions = args.includes('--backfill-definitions');
   const previewIndex = args.indexOf('--preview');
 
   if (!existsSync(BASE_IMAGE_PATH)) {
@@ -109,16 +112,13 @@ async function main() {
     process.exit(1);
   }
 
-  const words = readFileSync(WORDS_PATH, 'utf-8')
-    .split(/\r?\n/)
-    .map((w) => w.trim())
-    .filter(Boolean);
+  let entries: WordEntry[] = parseWordsFile(readFileSync(WORDS_PATH, 'utf-8'));
 
   const seen = new Set<string>();
   const duplicates: string[] = [];
-  for (const word of words) {
-    const slug = slugify(word);
-    if (seen.has(slug)) duplicates.push(word);
+  for (const entry of entries) {
+    const slug = slugify(entry.word);
+    if (seen.has(slug)) duplicates.push(entry.word);
     seen.add(slug);
   }
   if (duplicates.length > 0) {
@@ -126,18 +126,39 @@ async function main() {
     process.exit(1);
   }
 
+  // One-time (or occasional) manual opt-in: look up definitions for any word
+  // that doesn't have one yet, and rewrite words.txt with the results so
+  // future runs (including CI) don't need to call the dictionary API again.
+  if (backfillDefinitions) {
+    let filled = 0;
+    for (const entry of entries) {
+      if (entry.definition) continue;
+      await new Promise((resolve) => setTimeout(resolve, 300)); // stay well under the API's rate limit
+      const definition = await fetchDefinition(entry.word);
+      if (definition) {
+        entry.definition = definition;
+        filled++;
+        console.log(`Definition found for ${entry.word}: ${definition}`);
+      } else {
+        console.log(`No definition found for ${entry.word}`);
+      }
+    }
+    writeFileSync(WORDS_PATH, entries.map(formatWordLine).join('\n') + '\n');
+    console.log(`\nBackfilled ${filled} definition(s). Rewrote ${WORDS_PATH}.`);
+  }
+
   mkdirSync(OUTPUT_DIR, { recursive: true });
 
   let rendered = 0;
   let skipped = 0;
-  for (const word of words) {
-    const slug = slugify(word);
+  for (const entry of entries) {
+    const slug = slugify(entry.word);
     const outputPath = join(OUTPUT_DIR, `${slug}.png`);
     if (existsSync(outputPath) && !force) {
       skipped++;
       continue;
     }
-    await renderWordImage(word, family, outputPath);
+    await renderWordImage(entry.word, family, outputPath);
     rendered++;
     console.log(`Rendered ${slug}.png`);
   }
@@ -147,16 +168,20 @@ async function main() {
     'export interface WotdWord {',
     '  word: string;',
     '  slug: string;',
+    '  definition: string | null;',
     '}',
     '',
     'export const WOTD_WORDS: WotdWord[] = [',
-    ...words.map((word) => `  { word: ${JSON.stringify(word)}, slug: ${JSON.stringify(slugify(word))} },`),
+    ...entries.map(
+      (entry) =>
+        `  { word: ${JSON.stringify(entry.word)}, slug: ${JSON.stringify(slugify(entry.word))}, definition: ${JSON.stringify(entry.definition)} },`,
+    ),
     '];',
     '',
   ];
   writeFileSync(WORDS_DATA_PATH, dataLines.join('\n'));
 
-  console.log(`\nRendered ${rendered}, skipped ${skipped} (already existed), ${words.length} total words.`);
+  console.log(`\nRendered ${rendered}, skipped ${skipped} (already existed), ${entries.length} total words.`);
   console.log(`Wrote ${WORDS_DATA_PATH}`);
 }
 

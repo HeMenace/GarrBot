@@ -2,6 +2,7 @@ import { InteractionResponseType, type APIChatInputApplicationCommandInteraction
 import { fetchAsset } from '../assets.js';
 import { WOTD_WORDS } from '../data/wotd-words.js';
 import { getEntryForDate } from '../db/wotd.js';
+import { fetchDefinition } from '../dictionary.js';
 import type { HandlerResult } from '../discord-response.js';
 import { getInteractionUserId, isAdmin } from '../discord.js';
 import type { Env } from '../env.js';
@@ -10,6 +11,7 @@ import { getOption } from '../options.js';
 import { slugify } from '../slugify.js';
 import { todayDateString } from '../wotd.js';
 import { runWotdPost } from '../wotd-post.js';
+import { formatWordLine, parseWordsFile, type WordEntry } from '../words-file.js';
 
 const EPHEMERAL = 64;
 
@@ -38,10 +40,10 @@ async function handleAddWords(interaction: APIChatInputApplicationCommandInterac
 
   try {
     const file = await getWordsFile(env);
-    const existingLines = file.content.split(/\r?\n/).map((w) => w.trim()).filter(Boolean);
-    const existingSlugs = new Set(existingLines.map((w) => slugify(w)));
+    const existingEntries = parseWordsFile(file.content);
+    const existingSlugs = new Set(existingEntries.map((e) => slugify(e.word)));
 
-    const added: string[] = [];
+    const toAdd: WordEntry[] = [];
     const skipped: string[] = [];
     for (const word of requested) {
       const slug = slugify(word);
@@ -50,19 +52,32 @@ async function handleAddWords(interaction: APIChatInputApplicationCommandInterac
         continue;
       }
       existingSlugs.add(slug);
-      added.push(word);
+      toAdd.push({ word, definition: null });
     }
 
-    if (added.length === 0) {
+    if (toAdd.length === 0) {
       return ephemeral(`Already in the list: ${skipped.join(', ')}`);
     }
 
-    const newContent = [...existingLines, ...added].join('\n') + '\n';
-    const who = getInteractionUserId(interaction);
-    await updateWordsFile(env, newContent, file.sha, `Add word(s) via /wotd add: ${added.join(', ')} (requested by ${who})`);
+    // Fetch definitions live so they land in the same message as the confirmation.
+    await Promise.all(
+      toAdd.map(async (entry) => {
+        entry.definition = await fetchDefinition(entry.word);
+      }),
+    );
 
-    const skippedNote = skipped.length > 0 ? ` (already had: ${skipped.join(', ')})` : '';
-    return ephemeral(`Added **${added.join('**, **')}**${skippedNote}. Deploy will pick it up in a minute or two.`);
+    const newContent = [...existingEntries, ...toAdd].map(formatWordLine).join('\n') + '\n';
+    const who = getInteractionUserId(interaction);
+    await updateWordsFile(
+      env,
+      newContent,
+      file.sha,
+      `Add word(s) via /wotd add: ${toAdd.map((e) => e.word).join(', ')} (requested by ${who})`,
+    );
+
+    const lines = toAdd.map((e) => `**${e.word}** — ${e.definition ?? '_no definition found_'}`);
+    const skippedNote = skipped.length > 0 ? `\n(already had: ${skipped.join(', ')})` : '';
+    return ephemeral(`Added:\n${lines.join('\n')}${skippedNote}\n\nDeploy will pick it up in a minute or two.`);
   } catch (err) {
     console.error('WOTD add words failed:', err);
     return ephemeral(`Failed to add words: ${err instanceof Error ? err.message : String(err)}`);
@@ -84,7 +99,16 @@ async function handleView(env: Env): Promise<HandlerResult> {
   return {
     response: {
       type: InteractionResponseType.ChannelMessageWithSource,
-      data: { embeds: [{ title: entry.word, color: 0x5865f2, image: { url: `attachment://${wordEntry.slug}.png` } }] },
+      data: {
+        embeds: [
+          {
+            title: entry.word,
+            description: wordEntry.definition ?? undefined,
+            color: 0x5865f2,
+            image: { url: `attachment://${wordEntry.slug}.png` },
+          },
+        ],
+      },
     },
     files: [{ filename: `${wordEntry.slug}.png`, data: bytes }],
   };

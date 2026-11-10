@@ -37,6 +37,20 @@ export async function runWotdPost(env: Env, { force = false }: { force?: boolean
   const bytes = await fetchAsset(env, `/wotd/${wordEntry.slug}.png`);
   if (!bytes) throw new Error(`Missing rendered image for "${entry.word}". Run npm run render-wotd.`);
 
-  await postMessageWithAttachment(env, env.WOTD_CHANNEL_ID, {}, { filename: `${wordEntry.slug}.png`, data: bytes });
+  await postMessageWithAttachment(
+    env,
+    env.WOTD_CHANNEL_ID,
+    {
+      embeds: [
+        {
+          title: entry.word,
+          description: wordEntry.definition ?? undefined,
+          color: 0x5865f2,
+          image: { url: `attachment://${wordEntry.slug}.png` },
+        },
+      ],
+    },
+    { filename: `${wordEntry.slug}.png`, data: bytes },
+  );
   return { posted: true, alreadyPostedToday, word: entry.word };
 }
