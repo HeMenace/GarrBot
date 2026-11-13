@@ -549,3 +549,6 @@ ZENITH|(noun) The point in the sky vertically above a given position or observer
 ZEPHYR|(noun) A light wind from the west.
 ZOETIC
 ZONKED|(adjective) Extremely fatigued.
+CHUD
+LOATH|(adjective) Averse, disinclined; reluctant, unwilling.
+CHRYSANTHEMUM|(noun) Any of many flowering perennial plants, of the genus Chrysanthemum, native to China, that have showy radiate heads.
